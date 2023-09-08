@@ -30,10 +30,11 @@ In case of an error like this:
 
 Run the following commands
 
-
-`sudo apt install -y nvidia-docker2
+```
+sudo apt install -y nvidia-docker2
 sudo systemctl daemon-reload
-sudo systemctl restart docker`
+sudo systemctl restart docker
+```
 
 In VSCode install Dev Container and Docker
 
@@ -47,3 +48,4 @@ The result should look similar to this:
 `I tensorflow/core/common_runtime/gpu/gpu_device.cc:1635] Created device /device:GPU:0 with 6439 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1080, pci bus id: 0000:02:00.0, compute capability: 6.1
 True`
 
+Let's go!
